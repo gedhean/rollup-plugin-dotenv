@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-dotenv",
+  "name": "@gedhean/rollup-plugin-dotenv",
   "version": "0.3.0",
   "description": "",
   "main": "dist/rollup-plugin-dotenv.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Andarist/rollup-plugin-dotenv.git"
+    "url": "git+https://github.com/gedhean/rollup-plugin-dotenv.git"
   },
   "keywords": [
     "rollup",
@@ -23,9 +23,9 @@
   "author": "Mateusz Burzyński <mateuszburzynski@gmail.com> (https://github.com/Andarist)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Andarist/rollup-plugin-dotenv/issues"
+    "url": "https://github.com/gedhean/rollup-plugin-dotenv/issues"
   },
-  "homepage": "https://github.com/Andarist/rollup-plugin-dotenv#readme",
+  "homepage": "https://github.com/gedhean/rollup-plugin-dotenv#readme",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
