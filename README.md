@@ -84,4 +84,24 @@ so if you are in `prod`, rollup will search in
 
 and merge the result.
 
+### `preventAssignment`
+
+Type: `Boolean`
+Default: `true`
+
+Prevent things such as the following code to be replaced:
+
+```javascript
+const process.env.MY_VAR = 'foo';
+```
+
+See https://github.com/rollup/plugins/tree/master/packages/replace#preventassignment
+
+### `replaceAllEnvVars`
+
+Type: `Boolean`
+Default: `true`
+
+Replace all variables in `process.env.*` reference in code.
+
 [LICENSE (MIT)](/LICENSE)
